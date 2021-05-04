@@ -808,7 +808,7 @@ font: normal normal normal 24px Montserrat;
 letter-spacing: 0px;
 color: #000000;
 }
-.carré1{
+.carréTL{
 	/*width:60px;
 	height:73px;*/
 	border-left: 5px solid #4FB9A5;
@@ -816,7 +816,7 @@ color: #000000;
   padding-top: 73px;
   padding-left: 60px;
 }
-.carré2{
+.carréBR{
 	border-right: 5px solid #4FB9A5;
   border-bottom: 5px solid #4FB9A5;
   padding-bottom: 73px;
