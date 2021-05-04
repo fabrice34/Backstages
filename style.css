@@ -673,22 +673,62 @@ justify-items: center;
  text-align: center;
  color: #4FB9A5; 
  font: normal normal bold 153px Spartan;
- margin-bottom: 211px;
+margin-bottom: 211px;
  
 }
 .container-seven p{
   font: normal normal bold 44px Montserrat;
   color: #000000;
-  width: 1304px;
-height: 162px;
-text-align: center;
-margin-bottom: 92px;
+
+}
+.blockquote{
+  text-align: center;
+
+}
+
+.name{
+  text-align: center;
+}
+           /**les bordures**/
+
+.btright{
+    margin-bottom: 56px;/*
+    grid-column-start: 10;
+    grid-column-end: 11;
+    grid-row-start: row1-start;
+    grid-row-end: 1;*/
+}
+.btleft{
+  margin-top: 18px;
+}
+.carréTR{
+  border-right: 5px solid #4FB9A5;
+  border-top: 5px solid #4FB9A5;
+  padding-top: 73px;
+  padding-right: 60px;
+  width: 60px;
+height: 73px;
+  position: relative;
+  left:1100px; 
+}
+
+.carréBL{
+  border-left: 5px solid #4FB9A5;
+  border-bottom: 5px solid #4FB9A5;
+  padding-bottom: 73px;
+  padding-left: 60px;
+  width: 60px;
+height: 73px;
+  position: relative;
+  right: 190px;
   
 }
+
 .nameDavid{
   font: normal normal normal 27px Nunito Sans;
   letter-spacing: 0px;
   color: #000000;
+
  }
  .container-seven .david{
   text-align: center;
@@ -696,7 +736,9 @@ margin-bottom: 92px;
   letter-spacing: 0px;
   color: #000000;
  }
-
+.name{
+  margin-top: 53px;
+}
      /* ----------
     CONTAINER-EIGHT
 --------- */
@@ -708,7 +750,8 @@ margin-bottom: 92px;
   grid-template-columns: 1920px;
   justify-content: space-between;
   align-items: center;
-
+  
+  margin-top: 171px;
   /*margin-bottom: 168.22px;*/
 }
 .logoeight{
@@ -794,7 +837,7 @@ height: 44px;
   position:relative;
   left: 43px;
  
-  /*border: 5px solid #4FB9A5;*/
+ 
 }
 
 .container-ten h3{
@@ -808,6 +851,8 @@ font: normal normal normal 24px Montserrat;
 letter-spacing: 0px;
 color: #000000;
 }
+
+           /**les bordures**/
 .carréTL{
 	/*width:60px;
 	height:73px;*/
