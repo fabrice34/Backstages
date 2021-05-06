@@ -15,29 +15,30 @@
 
 <body>
     <header>
-
-        <div class="logo">
-            <a href="#"><img src="image/Groupe5.png" alt="logo" /></a>
-         <!--   <label for="burger">
-                <div class="barre barre_1"></div>
-                <div class="barre barre_2"></div>
-                <div class="barre barre_3"></div>
-            </label>-->
+        <div class="logo">            
+                <a href="#"><img src="image/Groupe5.png" alt="logo" /></a>        
         </div>
 
+        <div class="burger burger-squeeze" style="font-size: 15px">
+            <div class="burger-lines"></div>
+        </div>       
         
-        <nav>
-            <ul>
-                <li><a href="#" class="menu-lien">Acceuil</a></li>
-                <li><a href="#" class="menu-lien">Vos besoins</a></li>
-                <li><a href="#" class="menu-lien">Nos réalisations</a></li>
-                <li><a href="#" class="menu-lien">Notre équipe</a></li>
-                <li><a href="#" class="menu-lien">Nos actualités</a></li>
-                <li><a href="#" class="menu-lien">Contactez-nous</a></li>
-            </ul>
+        <nav class="menu-overlay">           
+                <ul class="navigation">
+                    <li><a href="#" class="menu-lien"style="padding-bottom:35px;">Accueil</a></li>
+                    <li><a href="#" class="menu-lien" style="padding-bottom:32px;">Vos besoins</a></li>
+                    <li><a href="#" class="menu-lien" style="padding-bottom:30px;">Nos réalisations</a></li>
+                    <li><a href="#" class="menu-lien" style="padding-bottom:25px;">Notre équipe</a></li>
+                    <li><a href="#" class="menu-lien" style="padding-bottom:35px;">Nos actualités</a></li>
+                    <li class="navicons"><a href="#" class="menu-lien">Contactez-nous</a>
+                        <div class="icos">
+                            <a href="facebook.svg" class="facebook"><img src="image/facebook.svg" alt="logozh" /></a>
+                            <a href="instagram.svg" class="instagram"><img src="image/instagram.svg" alt="logozt" /></a>
+                        </div>
+                    </li>
+                </ul>
         </nav>
     </header>
-
 
     <main>
         <!----container-one  ----------------------------------------------------------------------------------->
@@ -247,10 +248,8 @@
         </section>
     </main>
 
-
     <!----footer  -------------------------------------------------------------------------------------->
     <footer>
-
         <div class="menurs ">
             <p>Accueil | Vos besoins | Nos réalisations | Notre équipe | Nos actualités</p>
             <p class="ml ">Contactez-nous | Mentions légales</p>
@@ -261,13 +260,13 @@
             <a href="facebook.svg" class="facebook"><img src="image/facebook.svg" alt="logozh" /></a>
             <a href="instagram.svg" class="instagram"><img src="image/instagram.svg" alt="logozt" /></a>
         </div>
-
-
     </footer>
     <!----appel script js  ----->
 
     <script src="scrollreveal.js"></script>
- 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="index.js"></script>
 </body>
 
 </html>
