@@ -661,7 +661,6 @@ height: 56px;
   grid-template-columns: 1920px;
   grid-template-rows: 1;
 justify-items: center;
- /*background-color: #b9974f;*/
 }
 .container-small2 h2{
 
@@ -786,6 +785,7 @@ height: 783px;
 
   position: relative;
   left: 628px;
+  bottom: 60px;
   align-self:center;
 } 
 .block-imgtwotwo{
@@ -857,7 +857,7 @@ bottom:33px;
   text-transform: uppercase;
   margin-bottom: 44px;
   width: 593px;
-height: 92px;
+  height: 92px;
   }
   .container-four p , .container-five p, .container-six p{
     width: 596px;
@@ -1056,7 +1056,7 @@ height: 44px;
   grid-column-end: 12;
   grid-row-start: row1-start;
   grid-row-end: 1;
-  align-self: center;/*text-align: center; */
+  align-self: center;
   position:relative;
   left: 43px;
  
@@ -1143,4 +1143,35 @@ padding-bottom: 64px;
 }
 .facebook{
   padding-right: 40px;
+}
+
+
+/** animation scrollreveal**/
+
+.reveal-loaded .reveal [class*="reveal-"] {
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+.reveal-loaded [class*="reveal"]{
+  transition: 1s cubic-bezier(.5, 0, 0, 1);
+}
+
+/* On ajoute du délai */
+.reveal-loaded .reveal-2 {
+  transition-delay: .1s;
+}
+
+.reveal-loaded .reveal-3 {
+  transition-delay: .2s;
+}
+
+.reveal-loaded .reveal-4 {
+  transition-delay: .3s;
+}
+.reveal-loaded .reveal-5 {
+  transition-delay: .4s;
+}
+.reveal-loaded .reveal-6 {
+  transition-delay: .5s;
 }
