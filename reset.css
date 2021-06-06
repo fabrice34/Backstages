@@ -32,12 +32,12 @@ footer, header, hgroup, menu, nav, section {
 }*/
 body {
 	display: grid;
-	grid-template-columns: 160px 160px 160px 160px 160px 160px 160px 160px 160px 160px 160px 160px ;
-	/*grid-template-columns: repeat(12,160px);*/
+	/*grid-template-columns: 160px 160px 160px 160px 160px 160px 160px 160px 160px 160px 160px 160px ;*/
+	/*grid-template-columns: repeat(12,1fr);*/
 	grid-template-rows: auto;
 	line-height: 1;
 	overflow-x:hidden; 
-	width: 1920px;
+	width: 100vw;
 	grid-template-areas: 
 	"header"
 	"main"
